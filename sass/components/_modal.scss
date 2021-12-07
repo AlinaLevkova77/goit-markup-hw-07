@@ -32,8 +32,8 @@
 }
 
 .button__close {
-  @extend %flex-just;
   position: absolute;
+  @extend %flex-just;
 
   min-width: 30px;
   min-height: 30px;
