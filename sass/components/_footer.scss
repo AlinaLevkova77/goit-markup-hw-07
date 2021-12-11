@@ -65,6 +65,20 @@
 .socail-list__icon {
   @extend %icons;
 }
+.social-list__footer {
+  @extend %flex-just;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: $primary-white-color;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 250ms $timing-function;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
+}
 
 .js-speaker-form input {
   width: 358px;
